@@ -23,6 +23,11 @@ public class ProjectileController : MonoBehaviour
         Destroy(gameObject);
     }
     
+    private void Disappear()
+    {
+        
+    }
+    
     
 
     
