@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 291730339454725450}
   - component: {fileID: 8233306652691761738}
   - component: {fileID: 2474309435055148455}
+  - component: {fileID: 578052967268054751}
   m_Layer: 0
   m_Name: Animal_Chick
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,6 +70,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animalSpeed: 5
+--- !u!65 &578052967268054751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047418331449816368}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6478677, y: 6.4545684, z: 7.739064}
+  m_Center: {x: -0.0025448203, y: 2.7272847, z: 0.19492835}
 --- !u!1 &1935203057176241892
 GameObject:
   m_ObjectHideFlags: 0

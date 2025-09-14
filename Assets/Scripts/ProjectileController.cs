@@ -23,10 +23,14 @@ public class ProjectileController : MonoBehaviour
         Destroy(gameObject);
     }
     
-    private void Disappear()
+    private void OnCollisionEnter(Collision other)
     {
+        if(!other.gameObject.CompareTag("Animal")) return;
         
+        Destroy(gameObject);
+        Destroy(other.gameObject);
     }
+
     
     
 
